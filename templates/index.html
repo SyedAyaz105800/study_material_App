@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Study Material Repository</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Study Material Repository</h1>
+  </header>
+
+  <main>
+    <section id="materials">
+      <h2>Study Materials</h2>
+      <ul id="material-list">
+        <!-- Dynamic list of study materials will be inserted here -->
+      </ul>
+    </section>
+
+    <section id="add-material">
+      <h2>Add Study Material</h2>
+      <form id="material-form">
+        <input type="text" id="material-title" placeholder="Material Title" required>
+        <input type="text" id="material-url" placeholder="Material URL" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="assignments">
+      <h2>Upload Assignment</h2>
+      <form id="assignment-form">
+        <input type="text" id="assignment-title" placeholder="Assignment Title" required>
+        <input type="file" id="assignment-file" required>
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section id="reviews">
+      <h2>Reviews and Ratings</h2>
+      <ul id="review-list">
+        <!-- Dynamic list of reviews will be inserted here -->
+      </ul>
+      <form id="review-form">
+        <textarea id="review-content" placeholder="Write a review" required></textarea>
+        <input type="number" id="rating-value" placeholder="Rating (1-5)" min="1" max="5" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

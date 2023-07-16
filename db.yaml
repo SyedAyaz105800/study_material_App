@@ -1,0 +1,4 @@
+MYSQL_HOST: 'localhost'
+MYSQL_USER: 'ayaz-sayed'
+MYSQL_PASSWORD: '12345678'
+MYSQL_DB: 'study_materials'
